@@ -1,6 +1,8 @@
 body {
     background-size: cover;
     font-weight: 500;
+    background-image: url("img/physics_back.jpg");
+    background-repeat: no-repeat;
   }
   
   p {
@@ -39,3 +41,9 @@ body {
     color: red;
     cursor: pointer;
   }
+  #teller_kep{
+    float: right;
+    width: 260px;
+    margin-left: 20px;
+  }
+  
