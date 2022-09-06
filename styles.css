@@ -29,6 +29,17 @@ body {
   table {
     width: 50%;
     margin: auto;
+    padding: 10px;
+  }
+  td {
+    border-bottom: 1px solid grey;
+    background-color: grey;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  td:hover{
+    background-color: white;
   }
   
   ul {
@@ -46,4 +57,10 @@ body {
     width: 260px;
     margin-left: 20px;
   }
-  
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color: red;
+    text-decoration: none;
+  }
